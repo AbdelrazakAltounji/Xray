@@ -37,7 +37,7 @@ public class StepDefinitions {
 	WebDriver driver;
 	@Given("Ouvrir et lancer firefox")
 	public void visit_google() {
-		System.setProperty("webdriver.gecko.driver","C:\\Abdelrazak\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","/Xray/src/test/resources/geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://www.google.com");
 		}
